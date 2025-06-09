@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.UpdatePlayerController">
+	<children>
+	<Label layoutX="55.0" layoutY="71.0" text="player ID">
+			<padding>
+				<Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+			</padding>
+		</Label>
+		<Label layoutX="55.0" layoutY="111.0" text="Name">
+			<padding>
+				<Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+			</padding>
+		</Label>
+		<Label layoutX="55.0" layoutY="153.0" text="Phone">
+			<padding>
+				<Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+			</padding>
+		</Label>
+		<TextField fx:id="playeridTextField" layoutX="176.0" layoutY="70.0" />
+		<TextField fx:id="phoneTextField" layoutX="176.0" layoutY="152.0" />
+		<TextField fx:id="nameTextField" layoutX="176.0" layoutY="110.0" />
+				<Button fx:id="addButton" layoutX="170.0" layoutY="380.0" mnemonicParsing="false" onAction="#addButtonAction" prefHeight="23.0" prefWidth="87.0" text="Update" textFill="#5711da">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+		<Button fx:id="closeButton" layoutX="283.0" layoutY="379.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="27.0" prefWidth="89.0" text="Close" textFill="#dd1c42">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+		<Label layoutX="121.0" layoutY="21.0" prefHeight="40.0" prefWidth="205.0" text="Update player" textFill="#1529c3">
+			<font>
+				<Font name="System Bold" size="20.0" />
+			</font>
+			<padding>
+				<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+			</padding>
+		</Label>
+      <Label layoutX="57.0" layoutY="203.0" text="Gender">
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+      </Label>
+      <Label layoutX="57.0" layoutY="243.0" text="Nationality">
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+      </Label>
+      <Label layoutX="57.0" layoutY="319.0" text="Rating">
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+      </Label>
+      <TextField fx:id="RatingTextField" layoutX="178.0" layoutY="318.0" />
+      <Label layoutX="57.0" layoutY="281.0" text="Sport">
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+      </Label>
+      <RadioButton id="RadTrue" fx:id="rdMail" layoutX="188.0" layoutY="206.0" mnemonicParsing="false" text="MALE">
+         <toggleGroup>
+            <ToggleGroup fx:id="GenderOption" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton id="rbNo" fx:id="rdFemail" layoutX="252.0" layoutY="206.0" mnemonicParsing="false" text="FEMALE" toggleGroup="$GenderOption" >
+         
+      </RadioButton>
+      <ChoiceBox fx:id="chSports" layoutX="178.0" layoutY="279.0" prefHeight="31.0" prefWidth="186.0" />
+      <ChoiceBox fx:id="chCountries" layoutX="176.0" layoutY="241.0" prefHeight="31.0" prefWidth="186.0" />
+	</children>
+</Pane>

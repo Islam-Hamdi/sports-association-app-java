@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"model","l":"Administrator"},{"l":"All Classes","u":"allclasses-index.html"},{"p":"model","l":"Club"},{"p":"model","l":"Coach"},{"p":"model","l":"Gender"},{"p":"model","l":"Person"},{"p":"model","l":"Player"},{"p":"test","l":"SAAppTester"},{"p":"model","l":"Sport"}];updateSearchResults();

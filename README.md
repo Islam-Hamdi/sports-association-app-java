@@ -32,7 +32,20 @@ SAApp is designed to simulate real-world sports organization operations. The sys
 ```
 📂 sports-association-app-java
 ├── SAAppProject - phase 1/
+│   └── src/
+│       ├── model/              # Core entity classes (Player, Club, Sport, etc.)
+│       └── test/               # Contains SAAppTester.java (entry point)
+│
 ├── SAAppProject - phase 2/
+│   ├── src/
+│   │   ├── application/        # Main JavaFX app and launcher
+│   │   ├── Controllers/        # JavaFX controller classes
+│   │   ├── model/              # Core model classes reused from Phase 1
+│   │   ├── Repository/         # Data access layer (e.g., PlayerRepository)
+│   │   ├── test/               # Test harness
+│   │   └── view/               # FXML layout files
+│   ├── *.dat                  # Serialized data files
+│
 ├── .gitignore
 └── README.md
 ```
@@ -53,9 +66,16 @@ SAApp is designed to simulate real-world sports organization operations. The sys
 
 ## 🛠 How to Run
 
-1. Open the project in an IDE such as IntelliJ IDEA, Eclipse, or BlueJ.
-2. Ensure all `.java` files are organized under appropriate packages (`model/` and `test/`).
-3. Compile and run `SAAppTester.java` to launch the application.
+#### 🔹 Phase 1 (Console-based)
+1. Open the project in your preferred Java IDE (e.g., Eclipse, IntelliJ).
+2. Navigate to `SAAppProject - phase 1/src/test/SAAppTester.java`.
+3. Run the file to launch the console-based interface.
+
+#### 🔹 Phase 2 (GUI-based with JavaFX)
+1. Ensure JavaFX libraries are configured in your IDE.
+2. Open `SAAppProject - phase 2/src/application/Main.java`.
+3. Run `Main.java` to launch the GUI interface.
+4. Make sure the `.dat` files (`players.dat`, `sportNames.dat`, etc.) are accessible in the root directory—they store serialized data.
 
 ---
 

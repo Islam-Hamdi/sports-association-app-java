@@ -82,15 +82,23 @@ SAApp is designed to simulate real-world sports organization operations. The sys
 ## 📸 Screenshots
 
 ### 📋 Console Output – Phase 1
+🔎 Searching and managing members in a club
 ![Console Output 1](screenshots/console_output1.png)
+📊 Displaying detailed club information and associated sports
 ![Console Output 2](screenshots/console_output2.png)
 
 ### 🖥️ JavaFX GUI – Phase 2
+🧾 Main GUI Window showing list of players
 ![Main Window](screenshots/gui_main_window.png)
+➕ Form for adding a new player
 ![Add Player](screenshots/gui_add_player.png)
+🔁 Form for updating a player’s details
 ![Update Player](screenshots/gui_update_player.png)
+❌ Confirmation popup when deleting a player
 ![Delete Player](screenshots/gui_delete_player.png)
+⚠️ Alert for duplicate player ID
 ![Duplicate ID Warning](screenshots/gui_duplicate_id_warning.png)
+🔍 Validation alert when required fields are left empty
 ![Validation Alert](screenshots/gui_validation_alert.png)
 
 ---

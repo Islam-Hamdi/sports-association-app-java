@@ -79,6 +79,22 @@ SAApp is designed to simulate real-world sports organization operations. The sys
 
 ---
 
+## 📸 Screenshots
+
+### 📋 Console Output – Phase 1
+![Console Output 1](screenshots/console_output1.png)
+![Console Output 2](screenshots/console_output2.png)
+
+### 🖥️ JavaFX GUI – Phase 2
+![Main Window](screenshots/gui_main_window.png)
+![Add Player](screenshots/gui_add_player.png)
+![Update Player](screenshots/gui_update_player.png)
+![Delete Player](screenshots/gui_delete_player.png)
+![Duplicate ID Warning](screenshots/gui_duplicate_id_warning.png)
+![Validation Alert](screenshots/gui_validation_alert.png)
+
+---
+
 ## 👩🏻‍💻 Author
 
 **Islam Hamdi**  

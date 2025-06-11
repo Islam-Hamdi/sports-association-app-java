@@ -2,7 +2,7 @@
 
 > **CMPS251 – Object-Oriented Programming | Qatar University**
 
-**SAApp** is a console-based Java application built as part of the CMPS251 course at Qatar University. The project demonstrates the practical application of core object-oriented programming (OOP) principles including encapsulation, inheritance, polymorphism, and abstraction—tailored around a simulated sports association system.
+**SAApp** is a console-based Java application developed during my **second semester at Qatar University (Fall 2021)** as part of the **CMPS251 Object-Oriented Programming course**. The project demonstrates the practical application of core object-oriented programming (OOP) principles including encapsulation, inheritance, polymorphism, and abstraction—tailored around a simulated sports association system.
 
 ---
 
